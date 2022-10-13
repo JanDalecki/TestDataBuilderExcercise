@@ -10,4 +10,5 @@ public class Address {
     private final String country;
     private final int postalCode;
 
+
 }
