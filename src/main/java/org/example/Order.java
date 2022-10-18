@@ -11,5 +11,4 @@ public class Order {
     private final List<OrderItem> orderItems;
     private final Double discountRate;
     private final String couponCode;
-
 }

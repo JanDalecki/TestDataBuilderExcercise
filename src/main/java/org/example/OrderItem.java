@@ -4,6 +4,6 @@ import lombok.Data;
 
 @Data
 public class OrderItem {
-    String name;
-    int quantity;
+    private final String name;
+    private final int quantity;
 }

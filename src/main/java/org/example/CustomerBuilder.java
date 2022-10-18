@@ -2,8 +2,12 @@ package org.example;
 
 public class CustomerBuilder {
 
-    private Long customerId;
-    private String name;
-    private Address address;
+    private Long customerId = 1L;
+    private String name = "Test";
+    private Address address = new AddressBuilder().build();
 
+
+    public Customer build() {
+        return new Customer(customerId, name, address);
+    }
 }
